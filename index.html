@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermione|Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header section">
+        <nav class="navbar">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">Portfolio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro section">
+        <div class="w-50 intro__data">
+            <h1 class="intro__title">Hello, I'm</h1>
+            <h1 class="intro__name">Hermione!</h1>
+            <p class="intro__description">A Full Stack Web Developer. Dreaming to be the number one in the whole world.</p>
+            <a href="https://www.upwork.com" class="intro__button" target="_blank"> <i class='bx bx-user-check intro__icon'></i> Hire Me</a>
+        </div>
+        <div class="w-50 intro__img">
+            <img src="/assets/1.png" alt="Hermione">
+        </div>
+    </section>
+
+    <section class="intro section" id="about">
+        <div class="w-50 intro__data about__data">
+            <h1 class="intro__title about__title">About</h1>
+            <p class="intro__description">Hi, I am <strong>Hermione Scarlet!</strong> A Full stack Developer. Well, At least trying to become one. It was always my dream and passion to become a web developer and today I made my first pillar of success. And I can never thank <span style="color: orange;">Programming Hero</span> enough for this awesome platform and opportunity to learn web development. I will get that black belt for sure!!</p>
+            <a href="https://www.linkedin.com" target="_blank" class="intro__button about__button"><i class='bx bx-download about__icon'></i> Download CV</a>
+        </div>
+        <div class="w-50 intro__img about__img">
+            <img src="assets/2.png" alt="Hermione">
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <div class="skills__content">
+            <h3 class="section-title">My <span class="section-title--orange">Skills</span></h3>
+            
+            <div class="skills__data">
+                <i class='bx bxl-html5 skills__icon'></i>
+                <span class="skills__name">HTML/CSS</span>
+                <span class="skills__number">85%</span>
+                <span class="skills__bar skills__html"></span>
+            </div>
+
+            <div class="skills__data">
+                <i class='bx bxl-javascript skills__icon' ></i>                            <span class="skills__name">JavaScript</span>
+                <span class="skills__number">80%</span>
+                <span class="skills__bar skills__js"></span>
+            </div>
+
+            <div class="skills__data">
+                <i class='bx bxl-react skills__icon' ></i>
+                <span class="skills__name">React</span>
+                <span class="skills__number">84%</span>
+                <span class="skills__bar skills__react"></span>
+            </div>
+
+            
+            <div class="skills__data">
+                <i class='bx bxl-wordpress skills__icon' ></i>
+                <span class="skills__name">Wordpress</span>
+                <span class="skills__number">79%</span>
+                <span class="skills__bar skills__wp"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="portfolio">
+        <div class="section-title">
+            <h1><span class="section-title--orange">Latest</span> Working Project</h1>
+        </div>
+
+        <div class="work__container section">
+            <div class="work__box">
+                <img src="assets/Gryffindor.jpg" alt="Power-x-gym" class="work__img">
+                <h2 class="work__title">Gryffindor</h2>
+                <p class="work__description">"You might belong in Gryffindor,
+                    Where dwell the brave at heart,
+                    Their daring, nerve, and chivalry
+                    Set Gryffindors apart"
+                   <br> — Sorting Hat</p>
+            </div>
+
+            <div class="work__box">
+                <img src="assets/Hufflepuff.jpg" alt="Hufflepuff" class="work__img">
+                <h2 class="work__title">Hufflepuff</h2>
+                <p class="work__description">"You might belong in Hufflepuff, Where they are just and loyal, those patient Hufflepuffs are true, and unafraid of toil."
+                   <br> -The Sorting Hat, 'The Philosophers Stone'.</p>
+            </div>
+
+            <div class="work__box">
+                <img src="assets/ravenclaw.jpg" alt="Ravenclaw" class="work__img">
+                <h2 class="work__title">Hard Rock Music</h2>
+                <p class="work__description">"Or yet in wise old Ravenclaw,
+                    If you've a ready mind,
+                    Where those of wit and learning,
+                    Will always find their kind."
+                <br>— Sorting Hat</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-inc section" id="work">
+        <h1 class="work-inc__title">Work Inquiry</h1>
+        <a href="" class="work-inc__button" target="_blank">Let's Chat!</a>
+    </section>
+
+    <section class="contact section" id="contact">
+        <h3 class="contact__title">Stay Connected</h3>
+        
+        <div class="contact__social">
+            <a href="https://www.behance.net" target="_blank"><img src="assets/behance.png" alt="" class="contact__social-icon"></a>
+            <a href="https://dribbble.com" target="_blank"><img src="assets/dribble.png" alt="" class="contact__social-icon"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="assets/instagram.png" alt="" class="contact__social-icon"></a>
+            
+        </div>
+    </section>
+</body>
+</html>
